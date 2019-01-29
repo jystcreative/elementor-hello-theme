@@ -8,15 +8,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div id="logo">
 		<?php the_custom_logo(); ?>
 	</div>
-
-	<?php if ( is_front_page() && is_home() ) : ?>
-		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php esc_attr_e( 'Home', 'elementor-hello-theme' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-	<?php else : ?>
-		<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php esc_attr_e( 'Home', 'elementor-hello-theme' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-	<?php endif; ?>
-
+<!-- 	uncomment if you require custom navigation using wp_nav_menu
 	<nav id="top-menu" role="navigation">
 		<?php wp_nav_menu(); ?>
-	</nav>
+	</nav> -->
 
 </header>
