@@ -15,6 +15,8 @@ if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_
 }
 ?>
 
+<!-- We can embed stuffz here -->
+
 <?php wp_footer(); ?>
 
 </body>
